@@ -9,4 +9,19 @@
   margin: 0;
 }
 
-            
+@keyframes reveal {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateU(0);
+  }
+}
+
+.reveal-text {
+  animation: reveal 1s ease-out;
+}
+           
+ 
